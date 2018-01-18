@@ -15,8 +15,15 @@ Arguments
 
 *latitude* -- optional; used to calculate gravity variation with latitude
 
+Value
+-----
+
+*depth in m*
+
 Example
 -------
+
+without latitude supplied
 
 ``` r
 depth.from.pressure.DK(pressure = 10)

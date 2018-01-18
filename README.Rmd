@@ -21,8 +21,13 @@ A function to calculate **depth from pressure** according to UNESCO Technical Pa
 
 *latitude* -- optional; used to calculate gravity variation with latitude
 
+## Value
+
+*depth in m*
+
 ## Example
 
+without latitude supplied
 ```{r example, echo=TRUE}
 depth.from.pressure.DK(pressure = 10)
 ```
